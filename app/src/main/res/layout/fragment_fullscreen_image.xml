@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FragmentMain.Scanfragment.FullscreenImage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageRetrieve"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/scannew"
+         />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Date Captured:"
+            android:textAlignment="center"
+            android:textColor="#B0000000"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/datename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Date Here"
+            android:textAlignment="center"
+            android:textColor="#B0000000"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="50dp"
+            android:text="Scan Result:"
+            android:textAlignment="center"
+            android:textColor="#B0000000"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/showResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#B0000000"
+            android:textSize="15dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

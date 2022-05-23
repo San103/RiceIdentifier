@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffe400</color>
+    <color name="colorPrimaryDark">#ffa600</color>
+    <color name="colorRedDark">#FF0000</color>
+    <color name="colorGreenDark">#00FF22</color>
+    <color name="colorAccent">#272727</color>
+    <color name="colorSkip">#184656</color>
+    <color name="purple_200">#9C27B0</color>
+
+    <color name="lightWhite">#f5f5f5</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="lightblue">#8BB1E2</color>
+
+    //fragments
+    <color name="home">#1194AA</color>
+    <color name="like">#C93790</color>
+    <color name="noification">#AE7E0F</color>
+    <color name="profile">#5B37B7</color>
+
+    <color name="home_20">#331194AA</color>
+    <color name="like_20">#3337C96D</color>
+    <color name="scan_20">#5759735B</color>
+    <color name="noification_20">#33AE7E0F</color>
+    <color name="profile_20">#335B37B7</color>
+
+    //Fragment home colors
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#D2F1CE</color>
+    <color name="banner_background_light">#56F1E9</color>
+
+    <color name="card1">#7adccf</color>
+    <color name="card2">#f7c59f</color>
+    <color name="card5">#b8d7f5</color>
+</resources>

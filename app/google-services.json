@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "173862602290",
+    "project_id": "ripeness-identifier",
+    "storage_bucket": "ripeness-identifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173862602290:android:35f3d03b877ab81866de2b",
+        "android_client_info": {
+          "package_name": "com.san.ripenessidentification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173862602290-qn164vparqoo8verlo76bl32ajojcmbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiokINNJCO0orSgT8YkzY8UJFQ2L9FcAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173862602290-qn164vparqoo8verlo76bl32ajojcmbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

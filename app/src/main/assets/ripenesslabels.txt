@@ -1,0 +1,5 @@
+Unripe
+Early Ripe
+Partially Ripe
+Fully Ripe
+Defectiveness

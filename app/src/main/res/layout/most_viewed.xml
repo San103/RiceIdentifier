@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="10dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/mv_img"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/cheng"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:id="@+id/mv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chengs Face"
+            android:layout_toRightOf="@+id/mv_img"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:fontFamily="@font/poppinsmedium"/>
+        <TextView
+            android:id="@+id/mv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="descreiption here"
+            android:layout_below="@id/mv_title"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_toRightOf="@id/mv_img"
+            android:padding="10dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

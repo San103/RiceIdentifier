@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Ripeness Identification</string>
+    <string name="logo_name">Get a Way</string>
+    <string name="slogan_name">We will find you home!</string>
+    <string name="powered_by">Version: 1.0</string>
+
+    //On boarding Titles
+    <string name="first_title"> Welcome Gardener!</string>
+    <string name="second_title">Quick and easy to identify</string>
+    <string name="third_title"> Get Tips with up to date Articles</string>
+    <string name="forth_title"> Be part in our Community</string>
+
+    //Description
+    <string name="first_des">Good Day Gardener!, Not able to maintain your Garden? Dont worry? We Got You.</string>
+    <string name="second_des">Struggling on choosing the ripeness of your plant? Snap a photo directly from your phone and find out.</string>
+    <string name="third_des">Find tips on how to manage your rice crops carefully and protects them from pest with the articles. </string>
+    <string name="forth_des">Get your gardening questions answered and become part of our community.</string>
+
+    //buttons
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="get_started_btn">Get Started</string>
+    <string name="sign_in">Sign In</string>
+
+    //Login
+    <string name="home">HOME</string>
+    <string name="login">Welcome Back!</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="remeber_me">Remember Me</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="sign_in_btn">Sign In</string>
+    <string name="enterfullname">Fullname</string>
+    <string name="enterusername">Username</string>
+    <string name="enteremail">Email</string>
+    <string name="enternumber">Phone Number</string>
+    <string name="enterpassword">Password</string>
+    <string name="alreadyhaveaccount">Already have an Account? <u>Sign In</u></string>
+    <string name="reenterpassword">Re-enter Password</string>
+    <string name="sign_up_btn">Be part in our community!</string>
+    <string name="dont_have_account">Don\'t have an Account? <u>Create Now</u></string>
+    <string name="otp_title">OTP Verification</string>
+    <string name="otpresend">Don\'t recieve the OTP? <b>Resend Code</b></string>
+    <string name="otpcodereset">To recover your account, please input your mobile number.</string>
+    <string name="create_acc">Create Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //For Home
+    <string name="fertilizer_title">Fertilizer</string>
+    <string name="sunlight_title">Lighting</string>
+    <string name="watering_title">Watering</string>
+    <string name="title_activity_nearby_plant_places">Map</string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".FragmentMain.Profile.AppInformation">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Plant This"
+            android:textColor="#3E9C42"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Sans, Inc."
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Description"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="The project’s purpose was to create a mobile application that uses image processing techniques that use data sets by providing high-quality images for decision-making. Thereby, it can be used to improve agricultural practices by increasing process accuracy and consistency while eliminating manual monitoring by farmers. It frequently provides flexibility and effectively replaces farmers' visual decision-making by determining the maturity of the rice plant. "
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:text="Developer Information"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="15sp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="96dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_height="96dp"
+            android:src="@drawable/sanprofile" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Jessan P. Palban"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="Hi, I'm Jessan P. Palban 22 years old from the province of Bohol Philippines, I am currently studying in Bohol Island State University Calape Campus taking the course Bachelor of Science in Computer Science 4th level yr. I made this app for my submission in thesis system project. This app serve as my first fully functional app-based using android studio"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="80dp"
+            android:text="Date Creation: March - May 02, 2022"
+            android:fontFamily="@font/poppinsregular"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</ScrollView>
