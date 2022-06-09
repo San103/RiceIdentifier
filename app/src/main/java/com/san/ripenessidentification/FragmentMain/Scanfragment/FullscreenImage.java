@@ -64,7 +64,7 @@ public class FullscreenImage extends Fragment {
 
         Glide.with(getContext()).load(purl1).into(imageDisplay);
         datename.setText(dateString);
-        result.setText(Full+"\n"+Partial+"\n"+Full+"\n"+Defect);
+        result.setText(Unripe+"\n"+Early+"\n"+Partial+"\n"+Full+"\n"+Defect);
         return  v;
     }
 

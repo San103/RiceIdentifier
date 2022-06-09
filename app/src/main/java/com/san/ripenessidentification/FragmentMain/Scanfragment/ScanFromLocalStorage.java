@@ -339,7 +339,7 @@ public class ScanFromLocalStorage extends Fragment {
             for (int i = 0; i < label_probability.length; i++) {
                 barEntries.add(new BarEntry(i, label_probability[i] * 100));
             }
-            String[] classes = {"Unripe", "Early Ripe", "Partially Ripe", "Fully Ripe", "Defectiveness"};
+            String[] classes = {"Unripe", "Early Ripe", "Partially Ripe", "Fully Ripe", "Defective"};
             String s = "";
 
 

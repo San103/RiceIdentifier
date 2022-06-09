@@ -42,6 +42,9 @@ import com.san.ripenessidentification.Admin.HelperClasses.ScanHistory;
 import com.san.ripenessidentification.Admin.HelperClasses.SnapHistory;
 import com.san.ripenessidentification.MainActivity;
 import com.san.ripenessidentification.R;
+import com.san.ripenessidentification.ml.Classesmaturity;
+import com.san.ripenessidentification.ml.Maturitylives;
+import com.san.ripenessidentification.ml.Ripelive;
 import com.san.ripenessidentification.ml.RipenessModel;
 
 import org.tensorflow.lite.DataType;
@@ -117,7 +120,7 @@ public class CameraUsage extends Fragment {
 
     private void classifyImage(Bitmap image) {
         try {
-            RipenessModel model = RipenessModel.newInstance(getActivity().getApplicationContext());
+            Maturitylives model = Maturitylives.newInstance(getActivity().getApplicationContext());
 
             // Creates inputs for reference.
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
@@ -141,7 +144,7 @@ public class CameraUsage extends Fragment {
             String unripe = "", earlyripe = "", partiallyripe = "", fullyripe = "", defective = "";
             SharedPreferences sharedPreferences = getActivity().getSharedPreferences("logindata", Context.MODE_PRIVATE);
             String uid = sharedPreferences.getString("sid", String.valueOf(Context.MODE_PRIVATE));
-            RipenessModel.Outputs outputs = model.process(inputFeature0);
+            Maturitylives.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
             float[] confidences = outputFeature0.getFloatArray();
@@ -153,7 +156,7 @@ public class CameraUsage extends Fragment {
                     maxPos = i;
                 }
             }
-            String[] classes = {"Unripe", "Early Ripe","Partially Ripe", "Fully Ripe", "Defectiveness"};
+            String[] classes = {"Unripe", "Early Ripe","Partially Ripe", "Fully Ripe", "Defective"};
             String s = "";
             ListHistory.clear();
             for (int i = 0; i < classes.length; i++) {
@@ -206,7 +209,7 @@ public class CameraUsage extends Fragment {
                 }
             });
         } else {
-            Toast.makeText(getActivity(), "No Image Attached", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), "Image Attached", Toast.LENGTH_SHORT).show();
         }
     }
     private String getFileExtension(Uri mUri) {
